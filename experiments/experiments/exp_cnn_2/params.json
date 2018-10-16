@@ -1,0 +1,22 @@
+{
+    "experiment_type":"experience",
+    "student_model":"cnn",
+    "teachers":["resnet18_svhn", "wresnet"],
+    "alpha":0.3,
+    "num_classes":10,
+    "num_channels":32,
+    "initial_channel":3,
+    "temperature":20, 
+    "num_epochs":100,
+    "batch_size":25,
+    "depth":28,
+    "widen_factor":10,
+    "kernel_size":3,
+    "learning_rate":1e-3,
+    "aug":"on",
+    "kernel_size":3,
+    "dropout_rate":0.5,
+    "dropout":0.5,
+    "save_summary_steps":100, 
+    "num_workers":4
+}

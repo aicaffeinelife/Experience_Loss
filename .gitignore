@@ -1,0 +1,3 @@
+
+# ignore global log files
+*.log

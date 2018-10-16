@@ -1,0 +1,21 @@
+{
+    "experiment_type":"base",
+    "model_name":"wresnet",
+    "num_channels":32,
+    "initial_channel":3, 
+    "batch_size":64, 
+    "learning_rate":1e-3,
+    "depth":28,
+    "widen_factor":10, 
+    "num_classes":10,
+    "dropout":0.3, 
+    "aug":"on",
+    "alpha":0.0,
+    "temperature":1,
+    "num_epochs":20, 
+    "dropout_rate":0.5,
+    "kernel_size":3, 
+    "save_summary_steps":100, 
+    "num_workers":4
+
+}
