@@ -3,6 +3,8 @@
 This is the accompanying code for our paper `Experience Loss: Learning From Multiple Teachers` currently under review at AAAI 2019. This release introduces our framework for easy training of models written in PyTorch and shows some of the utility improvements that are made under the hood. 
 
 
+**NOTE**: There are pending changes to be merged in this repo. You can carry out experiments on existing models, but this is under construction with better architecture and models. 
+
 ### Preliminaries: Requirements:
 In order to train with Experience Loss, you'll need: 
 1. `PyTorch > 0.4.0` 
