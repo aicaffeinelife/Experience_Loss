@@ -95,6 +95,8 @@ Here `entries` is a customizable lists which tells the `csvreporter` the names o
 **Note**: The Plotter and CSVReporter are two examples in ways reporter class can be used. We're looking for ways to reduce the memory consumption of the reporter class for large number of observations. 
 
 
+**Update**: This old interface has been moved to "old reporters". It still continues to be a part of the repository, but we've adapted the code from [here](https://github.com/bearpaw/pytorch-classification/blob/master/utils/logger.py) for a better logging and plot experience. The interface is unchanged. 
+
 
 ### Definining your own Models 
 
